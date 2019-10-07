@@ -1,0 +1,17 @@
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\obj\Debug\netcoreapp2.2\DiplomaTests.csprojAssemblyReference.cache
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\obj\Debug\netcoreapp2.2\DiplomaTests.csproj.CoreCompileInputs.cache
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\obj\Debug\netcoreapp2.2\DiplomaTests.AssemblyInfoInputs.cache
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\obj\Debug\netcoreapp2.2\DiplomaTests.AssemblyInfo.cs
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\bin\Debug\netcoreapp2.2\DiplomaTests.deps.json
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\bin\Debug\netcoreapp2.2\DiplomaTests.runtimeconfig.json
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\bin\Debug\netcoreapp2.2\DiplomaTests.runtimeconfig.dev.json
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\bin\Debug\netcoreapp2.2\DiplomaTests.dll
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\bin\Debug\netcoreapp2.2\DiplomaTests.pdb
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\bin\Debug\netcoreapp2.2\Diploma.dll
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\bin\Debug\netcoreapp2.2\Diploma.pdb
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\obj\Debug\netcoreapp2.2\DiplomaTests.csproj.CopyComplete
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\obj\Debug\netcoreapp2.2\DiplomaTests.dll
+C:\Users\alaha\Desktop\tests\DiplomaTestingKata\DiplomaTests\obj\Debug\netcoreapp2.2\DiplomaTests.pdb
