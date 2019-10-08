@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaTests\\DiplomaTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\Diploma.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\Diploma.csproj",
+        "projectName": "Diploma",
+        "projectPath": "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\Diploma.csproj",
+        "packagesPath": "C:\\Users\\vbutnaru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vbutnaru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[12.1.2, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.3.2, )"
+            },
+            "GemBox.Document": {
+              "target": "Package",
+              "version": "[31.0.0.1035, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.7, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.5.4, )"
+            },
+            "SimpleInjector": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaTests\\DiplomaTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaTests\\DiplomaTests.csproj",
+        "projectName": "DiplomaTests",
+        "projectPath": "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaTests\\DiplomaTests.csproj",
+        "packagesPath": "C:\\Users\\vbutnaru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vbutnaru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\Diploma.csproj": {
+                "projectPath": "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\Diploma.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ddumbrava\\source\\repos\\Diploma\\DiplomaConsole\\Diploma.csproj": {}
+    "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\Diploma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ddumbrava\\source\\repos\\Diploma\\DiplomaConsole\\Diploma.csproj": {
+    "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\Diploma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ddumbrava\\source\\repos\\Diploma\\DiplomaConsole\\Diploma.csproj",
+        "projectUniqueName": "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\Diploma.csproj",
         "projectName": "Diploma",
-        "projectPath": "C:\\Users\\ddumbrava\\source\\repos\\Diploma\\DiplomaConsole\\Diploma.csproj",
-        "packagesPath": "C:\\Users\\ddumbrava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ddumbrava\\source\\repos\\Diploma\\DiplomaConsole\\obj\\",
+        "projectPath": "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\Diploma.csproj",
+        "packagesPath": "C:\\Users\\vbutnaru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vbutnaru\\Desktop\\tests\\DiplomaTestingKata\\DiplomaConsole\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ddumbrava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vbutnaru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

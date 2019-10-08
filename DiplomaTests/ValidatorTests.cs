@@ -22,15 +22,19 @@ namespace DiplomaTests
         }
 
         [Fact]
-        public void ValidateStudentRecord_WithoudSubject_ReturnFalse()
+        public void ValidateStudentRecord_WithoutSubject_ReturnFalse()
         {
             Validator validator = new Validator();
 
-            StudentModel studentModel = new StudentModel();
+            List<Subject> grades = new List<Subject>();
 
-            studentModel.FirstName = "Chrila";
-            studentModel.LastName = "Petru";
-            studentModel.Grades = null;
+            Subject subject = new Subject();
+
+            subject.SubjectName = "Limba";
+
+            grades.Add(subject);
+
+            StudentModel studentModel = new StudentModel {FirstName = "Chrila",LastName = "Petru",Grades = grades};
 
             var act = validator.ValidateStudentRecord(studentModel);
 
