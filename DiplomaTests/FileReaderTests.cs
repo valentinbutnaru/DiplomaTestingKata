@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using Xunit;
 using Diploma.Files;
 using Diploma.Wrappers;
 using Moq;
 using System.IO;
 using Diploma.Models;
+using System;
 
 namespace DiplomaTests
 {
@@ -22,7 +21,6 @@ namespace DiplomaTests
             };        
 
             var iFileWrapper = new Mock<IFileWrapper>();
-
             string path = @"C:\Users\vbutnaru\Desktop\tests\DiplomaTestingKata\StudentCatalog.csv";
 
             iFileWrapper.Setup(a => a.OpenText(path)).Returns(File.OpenText(path));
