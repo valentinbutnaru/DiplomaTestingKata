@@ -21,24 +21,24 @@ namespace DiplomaTests.Builder
             this.validator = new Mock<IValidator>();
         }
 
-        public StudentDataProcessorBuilder WithFileReader (IFileReader fileReader)
+        public StudentDataProcessorBuilder WithFileReader (Mock<IFileReader> fileReader)
         {
-            this.fileReader = new Mock<IFileReader>(fileReader);
+            this.fileReader = fileReader;
             return this;
         }
-        public StudentDataProcessorBuilder WithMapper(ICustomMapper mapper)
+        public StudentDataProcessorBuilder WithMapper(Mock<ICustomMapper> mapper)
         {
-            this.mapper = new Mock<ICustomMapper>(mapper);
+            this.mapper = mapper;
             return this;
         }
-        public StudentDataProcessorBuilder WithFileWriter(IFileWriter fileWriter)
+        public StudentDataProcessorBuilder WithFileWriter(Mock<IFileWriter> fileWriter)
         {
-            this.fileWriter = new Mock<IFileWriter>(fileWriter);
+            this.fileWriter = fileWriter;
             return this;
         }
-        public StudentDataProcessorBuilder WithValidator(IValidator validator)
+        public StudentDataProcessorBuilder WithValidator(Mock<IValidator> validator)
         {
-            this.validator = new Mock<IValidator>(validator);
+            this.validator = validator;
             return this;
         }
         public StudentDataProcessor Build()

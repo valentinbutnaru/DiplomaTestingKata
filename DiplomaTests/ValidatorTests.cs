@@ -1,4 +1,4 @@
-﻿
+﻿using FluentAssertions;
 using System.Collections.Generic;
 using Xunit;
 using Diploma.Validators;
@@ -17,7 +17,7 @@ namespace DiplomaTests
 
             var actual = validator.ValidateStudentRecord(studentModel);
 
-            Assert.Equal(false, actual);
+            actual.Should().BeFalse();
         }
 
         [Fact]
@@ -35,7 +35,7 @@ namespace DiplomaTests
 
             var act = validator.ValidateStudentRecord(studentModel);
 
-            Assert.Equal(false, act);
+            act.Should().BeFalse();
         }
 
         [Fact]
@@ -53,7 +53,7 @@ namespace DiplomaTests
 
             var actual = validator.ValidateStudentRecord(studentModel);
 
-            Assert.Equal(true, actual);
+            actual.Should().BeTrue();
         }
        
         [Theory]
@@ -71,7 +71,7 @@ namespace DiplomaTests
             grades.Add(l);
             var studentModel = new StudentModel { FirstName = fName, LastName = lName, Grades = grades };
             var actual = validator.ValidateStudentRecord(studentModel);
-            Assert.Equal(false, actual);
+            actual.Should().BeFalse();
         }
     }
 }
