@@ -17,6 +17,30 @@ namespace DiplomaTests
     public class FileWriterTests
     {
         [Fact]
+        public void CreateDiplomas_CallingFirstParagraph_Once()
+        {
+            var student = new StudentModel();
+            var stringCreator = new Mock<IStringCreator>();
+            var sut = new FileWriterBuilder().WithStringCreator(stringCreator).Build();
+
+            sut.CreateDiplomas(student);
+
+            stringCreator.Verify(s => s.GetFirstParagraph(It.IsAny<string>(), It.IsAny<string>()), Times.Once);
+        }
+
+        [Fact]
+        public void CreateDiplomas_CallingSecondParagraph_Once()
+        {
+            var student = new StudentModel();
+            var stringCreator = new Mock<IStringCreator>();
+            var sut = new FileWriterBuilder().WithStringCreator(stringCreator).Build();
+
+            sut.CreateDiplomas(student);
+
+            stringCreator.Verify(s => s.GetSecondParagraphText(It.IsAny<IEnumerable <Subject>>()),Times.Once);
+        }
+
+        [Fact]
         public void CreateDiplomas_ShouldReturnCorrectDocument()
         {
             ComponentInfo.SetLicense("FREE-LIMITED-KEY");
