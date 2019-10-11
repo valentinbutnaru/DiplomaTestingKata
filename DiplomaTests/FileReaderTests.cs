@@ -37,9 +37,11 @@ namespace DiplomaTests
         {
             
             var fileWrapper = new Mock<IFileWrapper>();
+            string path = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, "StudentCatalog.csv");
+            fileWrapper.Setup(a => a.OpenText(path)).Returns(File.OpenText(path));
             var fileReaderr = new FileReader(fileWrapper.Object);
-            fileReaderr.ImportData(It.IsAny<string>());
-            fileWrapper.Verify(f => f.OpenText(It.IsAny<string>()), Times.Once);
+            fileReaderr.ImportData(path);
+            fileWrapper.Verify(f => f.OpenText(path), Times.Once);
         }
     }
 }
