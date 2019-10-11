@@ -21,7 +21,7 @@ namespace DiplomaTests
             };
 
             var iFileWrapper = new Mock<IFileWrapper>();
-            string path= Path.Combine(System.IO.Directory.GetCurrentDirectory(), "StudentCatalog.csv");
+            string path= Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, "StudentCatalog.csv");
 
             iFileWrapper.Setup(a => a.OpenText(path)).Returns(File.OpenText(path));
 
